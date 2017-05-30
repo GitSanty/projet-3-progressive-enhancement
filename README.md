@@ -7,7 +7,9 @@ Exercices
 - Web fonts
 
 reproduis le plus fidèlement possible les layouts proposées.
-homepage de turlututu.com
-homepage de Active Collab
+
+- homepage de turlututu.com
+- homepage de Active Collab
+
 
 https://github.com/becodeorg/BXLCentral/tree/master/Projects/3-progressive-enhancement
