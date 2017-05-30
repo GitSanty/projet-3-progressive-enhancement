@@ -1,0 +1,252 @@
+body {
+
+    background: url(maxresdefault.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* background-color: coral; */
+    font-size: 140%;
+   /* font-family: 'Raleway', sans-serif; */
+    font-family: MyFont_Face;
+    font-weight: 400; /* Corresponds to the Bold 400 style */
+    height: 100%;
+    margin: 0px;
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: justify;
+
+}
+
+#color_Mal{
+    color: red;
+}
+
+#color_Bien{
+    color: green;
+}
+
+h1{
+    color: blue;
+
+}
+
+strong,
+.text-strong {
+    font-weight: 700; /* Corresponds to the Bold 700 style*/
+    text-align: justify;
+}
+
+
+.text-light {
+    font-weight: 300; /* // Corresponds to the Light 300 style */
+    text-align: justify;
+
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.blend-gradient {
+    background: -webkit-linear-gradient(90deg, rgb(190, 225, 64), rgb(231, 248, 68));
+    background: linear-gradient(90deg, rgb(190, 225, 64), rgb(231, 248, 68));
+}
+
+.bien{
+background-color: whitesmoke;
+}
+
+
+
+/* latin-ext */
+@font-face {
+    font-family: 'MyFont_Face';
+    font-style: normal;
+    color: black;
+    font-size: 160%;
+    font-weight: 700;
+    src: local('MyFont_Face'), local('MyFont_Face-Regular'), url(http://fonts.gstatic.com/s/racingsansone/v4/1r3DpWaCiT7y3PD4KgkNyKW9WqC4OJJkfgA_jCJuPCQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'MyFont_Face';
+    font-style: normal;
+    font-size: 160%;
+    color: black;
+    font-weight: 700;
+    font-size: 160%;
+    box-shadow: 1px 2px 6px 7px block solid black;
+    src: local('MyFont_Face'), local('MyFont_Face-Regular'), url(http://fonts.gstatic.com/s/racingsansone/v4/1r3DpWaCiT7y3PD4KgkNyCJccsb45t3MJKcv5BJtrIs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+#table_1 {
+    color: black;
+    border: 1px solid black;
+    mso-cellspacing: 30px;
+    background-color: blue;
+    alignment: center;
+    margin: 3%;
+   width: 40%;
+    height: 40%;
+}
+
+img{
+    width: auto;
+    height: auto;
+    alignment: center;
+}
+
+p{
+    text-align: justify;
+
+}
+
+a{
+    color: white;
+}
+.Body-gradient{
+    background: -webkit-linear-gradient(90deg, rgb(212, 87, 134), rgb(216, 187, 202));
+    background: linear-gradient(90deg, rgb(212, 87, 134), rgb(216, 187, 202));
+}
+
+.Img_Bien {
+    line-height: 400%;
+    background: no-repeat;
+    background-image: url('../bien.png');
+    background-position: center;
+    padding-right: 5px;
+    padding-left: 0px;
+    max-width: 73%;
+}
+
+.Img_Mal {
+    line-height: 400%;
+    background: no-repeat;
+    background-image: url('../mal.png');
+    background-position: center;
+    padding-right: 6px;
+    max-width: 73%;
+}
+
+.Img_Chat{
+    line-height: 400%;
+    background: no-repeat;
+    background-image: url('../chat.png');
+    background-position: center;
+    padding-right: 5px;
+    padding-left: 0px;
+    max-width: 73%;
+
+}
+
+/* Grilles*/
+.details{
+    background-image: url("http://lorempixel.com/200/200/");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat ;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.wrapper {
+    /*background-image: url("http://lorempixel.com/200/200/");*/
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+    /*grid-auto-rows: minmax(100px, auto);*/
+}
+.one {
+    grid-column: 1;
+    grid-row: 4;
+    background-image: url("http://lorempixel.com/200/200/");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.two {
+    grid-column: 2;
+    grid-row: 4;
+    background-image: url("http://lorempixel.com/200/200/");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.three {
+    grid-row: 4 ;
+    grid-column: 3;
+    background-image: url("http://lorempixel.com/200/200/");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.four {
+    grid-column: 1;
+    grid-row: 5;
+    background-image: url("http://lorempixel.com/200/200/");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.five {
+    grid-column: 2;
+    grid-row: 5;
+    background-image: url("http://lorempixel.com/200/200/");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.six {
+    grid-column: 3;
+    grid-row: 5;
+    background-image: url("http://lorempixel.com/200/200/");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.section1 {
+    grid-column: 1;
+    grid-row: 4;
+    width: 55%;
+}
+.section2 {
+    grid-column: 2;
+    grid-row: 4;
+    width: 55%;
+}
+
+.section3{
+    grid-row: 4 ;
+    grid-column: 3;
+    width: 55%;
+}
