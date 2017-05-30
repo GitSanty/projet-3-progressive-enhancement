@@ -1,0 +1,271 @@
+body{
+    background-color: #E9EDF2;
+    line-height: 1;
+}
+
+a#LinkCenter{
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+img#ImgSIZE{
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-left: 15%;
+}
+
+img#myImg {
+    filter:brightness(400%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3#min{
+    text-align: center;
+    min-width: 45px;
+    text-space: 2px;
+}
+
+h3#myh2{
+    filter:brightness(400%);
+    text-align: center;
+
+}
+
+p#myP2Bright{
+    filter: brightness(300%);
+
+}
+
+p#myP{
+    filter: brightness(300%);
+    text-align: center;
+}
+
+p#myPBright{
+    filter: brightness(400%);
+
+    color: white;
+}
+
+p#alignCenter {
+    text-align: center;
+}
+
+div#Center{
+    text-align: center;
+}
+
+div#white{
+    background-color: white;
+}
+section{
+text-align: center;
+    display: inline;
+
+}
+
+.wrapper {
+    /*background-image: url("http://lorempixel.com/200/200/");*/
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    display:inline-grid;
+    grid-template-columns: 290px 290px 290px 290px;
+    grid-template-rows: 300px;
+    background-color: #0b1e1a;
+
+    /*grid-auto-rows: minmax(100px, auto);*/
+}
+
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+    border-style: solid;
+    background-color: #0b1e1a;
+    display: grid;
+
+}
+
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+    border-style: solid;
+    display: inline-grid;
+    background-color: #0b1e1a;
+}
+
+.three {
+    grid-row: 1;
+    grid-column: 3;
+    border-style: solid;
+    display: inline-grid;
+    background-color: #0b1e1a;
+}
+
+.four {
+    grid-column: 4;
+    grid-row: 1;
+    display: grid;
+    border-style: solid;
+    background-color: #0b1e1a;
+}
+
+.wrapperWhite {
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    display: inline-block;
+    grid-template-columns: 290px 160px 290px;
+    grid-template-rows: auto;
+    background-color: white;
+    padding-left: 33%;
+    grid-gap: 4px;
+}
+
+.OneWhite {
+    grid-row: 1;
+    grid-column: 1;
+    border-style: hidden;
+    display: inline-grid;
+    background-color: white;
+    grid-gap: 4px;
+}
+
+.middleWhite {
+    grid-row: 1;
+    grid-column: 2;
+    border-style: ridge;
+    display: inline-grid;
+    background-color: white;
+    grid-gap: 4px;
+}
+
+.TwoWhite {
+    grid-row: 1;
+    grid-column: 3;
+    border-style: hidden;
+    display: inline-grid;
+    background-color: white;
+    grid-gap: 4px;
+}
+
+#linea {
+    border-left: 2px solid #FFF;
+    width: 2px;
+    /*height: 500px; repeat-y:;*/
+}
+
+img#logo1{
+    display: inline-block;
+    width: 1100px;
+    height: 140px;
+
+    background-repeat: no-repeat;
+    background-size: 1120px 140px;
+}
+
+form#frmColor{
+    background-color: #E9EDF2;
+    width: 60%;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    alignment: center;
+    border: ridge;
+
+
+}
+.center_div{
+    padding-left: 30%;
+
+    width:100% /* value of your choice which suits your alignment */
+
+}
+
+a#linkDiv{
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+
+.wrapperFooter {
+    /*background-image: url("http://lorempixel.com/200/200/");*/
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    display:inline-grid;
+    grid-template-columns: 290px 290px 290px 290px 290px 290px 300px;
+    grid-template-rows: 300px 300px 100px;
+    background-color: #0b1e1a;
+
+    /*grid-auto-rows: minmax(100px, auto);*/
+}
+
+
+.oneFooter {
+    grid-column: 1;
+    grid-row: 1;
+    border-style: hidden;
+    background-color: #0b1e1a;
+    display: grid;
+
+}
+
+
+.twoFooter {
+    grid-column: 2;
+    grid-row: 1;
+    border-style: hidden;
+    display: inline-grid;
+    background-color: #0b1e1a;
+}
+
+.threeFooter {
+    grid-row: 1;
+    grid-column: 3;
+    border-style: hidden;
+    display: inline-grid;
+    background-color: #0b1e1a;
+}
+
+.fourFooter {
+    grid-column: 4;
+    grid-row: 1;
+    display: grid;
+    border-style: hidden;
+    background-color: #0b1e1a;
+}
+
+.fiveFooter {
+    grid-row: 1;
+    grid-column: 5;
+    border-style: hidden;
+    display: inline-grid;
+    background-color: #0b1e1a;
+}
+
+.sixFooter {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    border-style: hidden;
+    background-color: #0b1e1a;
+}
+
+.sevenFooter{
+    grid-column: 3;
+    grid-row: 3;
+    display: inline-block;
+    border-style: hidden;
+    background-color: #0b1e1a;
+
+}
+
+a{
+    color: white;
+}
+
+img#espace{
+    padding: 5px;
+}

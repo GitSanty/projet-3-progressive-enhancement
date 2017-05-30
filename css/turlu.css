@@ -1,0 +1,35 @@
+.First_Div{
+    background-color: dodgerblue;
+
+}
+
+.Second_Div{
+    background-color: lightgray;
+
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    color: white;
+
+}
+
+.Images {
+    display: inline-block;
+    margin-left: .1%;
+    margin-right: .9%;
+    width: 15%;
+}
+
+#Big_bUtton{
+    text-align: center;
+    height: 55px;
+    width: 180px;
+}
+
